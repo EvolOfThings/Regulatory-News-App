@@ -7,15 +7,17 @@ class App extends Component {
       background: "#eee",
       padding: "20px",
       margin: "20px",
-      textAlign: 'center',
+      textAlign: 'center'
     };
     return (
       <div>
         <h1 style={divStyle}>Regulatory News App</h1>
         <div>
+          <h4>TODO</h4>
           <ol>
             <li>write layout</li>
             <li>write components</li>
+            <li>write rest of the TODOs</li>
           </ol>
         </div>
       </div>
