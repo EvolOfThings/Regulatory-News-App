@@ -3,9 +3,21 @@ import "./App.css";
 
 class App extends Component {
   render(){
+    const divStyle = {
+      background: "#eee",
+      padding: "20px",
+      margin: "20px",
+      textAlign: 'center',
+    };
     return (
       <div>
-        <h1>Regulatory News App</h1>
+        <h1 style={divStyle}>Regulatory News App</h1>
+        <div>
+          <ol>
+            <li>write layout</li>
+            <li>write components</li>
+          </ol>
+        </div>
       </div>
     )
   }
